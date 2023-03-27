@@ -1,0 +1,27 @@
+{
+  "name": "chrome-crossdomain-pagehide",
+  "version": "1.0.0",
+  "description": "Reproducer repo for a chrome bug that doesn't fire pagehide events on cross domain navigation",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerGernTod/chrome-crossdomain-pagehide.git"
+  },
+  "keywords": [
+    "chrome",
+    "pagehide"
+  ],
+  "author": "gernot.raudner@dynatrace.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerGernTod/chrome-crossdomain-pagehide/issues"
+  },
+  "homepage": "https://github.com/DerGernTod/chrome-crossdomain-pagehide#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

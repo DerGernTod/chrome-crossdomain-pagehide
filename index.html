@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        window.addEventListener("pagehide", () => navigator.sendBeacon(location.href, "pagehide fired"));
+    </script>
+    <body>
+        <div>waiting for an image...</div>
+        <a href="http://wikipedia.org/">Redirect to completely different domain</a>
+        <img src="./image.jpg" alt="should always load">
+    </body>
+</html>
