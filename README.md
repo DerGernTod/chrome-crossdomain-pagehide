@@ -5,7 +5,7 @@ Reproducer repo for a chrome bug that doesn't fire pagehide events on cross doma
 * Run `npm install`
 * run `npm start` to start a server on port 3000
 * open a chromium-based browser
-* open devtools
+* open devtools, go to network tab and enable "preserve log"
 * navigate to `http://localhost:3000`
 * click on the link
 
