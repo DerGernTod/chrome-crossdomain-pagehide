@@ -1,5 +1,5 @@
 # chrome-crossdomain-pagehide
-Reproducer repo for a chrome bug that doesn't fire pagehide events on cross domain navigation
+Reproducer repo for a chrome bug that doesn't fire pagehide events on cross domain navigation if page is still loading
 
 ## Steps to reproduce
 * Run `npm install`
